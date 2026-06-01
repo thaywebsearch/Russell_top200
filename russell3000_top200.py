@@ -1,11 +1,11 @@
-import yfinance as yf
 import pandas as pd
+import yfinance as yf
 from datetime import date
 
-INDEX_SYMBOL = "^RUA"
+INPUT_FILE = "input.csv"
+OUTPUT_FILE = "russell3000_top200_yahoo.csv"
 MAX_ROWS = 200
 AS_OF = date.today().isoformat()
-OUTPUT_FILE = "russell3000_top200_yahoo.csv"
 
 def get_info_safe(ticker_obj):
     try:
@@ -16,36 +16,20 @@ def get_info_safe(ticker_obj):
         except Exception:
             return {}
 
-def get_components():
-    index_ticker = yf.Ticker(INDEX_SYMBOL)
-    raw = get_info_safe(index_ticker)
-
-    for key in ("components", "constituents", "holdings"):
-        if isinstance(raw, dict) and raw.get(key):
-            return raw[key]
-
-    raise RuntimeError(
-        "Não foi possível obter os componentes do ^RUA via Yahoo Finance. "
-        "Use uma lista externa de constituintes e mantenha este script para enriquecimento."
-    )
-
-def normalize_component(item):
-    if isinstance(item, dict):
-        ticker = item.get("symbol") or item.get("ticker") or item.get("ric") or ""
-        name = item.get("name") or item.get("longName") or item.get("shortName") or ""
-    else:
-        ticker = str(item)
-        name = ""
-    return ticker, name
-
 def main():
-    components = get_components()
+    df_in = pd.read_csv(INPUT_FILE)
+
+    if "Ticker" not in df_in.columns:
+        raise ValueError("O input.csv precisa ter uma coluna chamada Ticker")
+
     rows = []
 
-    for item in components:
-        ticker, name = normalize_component(item)
-        if not ticker:
+    for _, row in df_in.iterrows():
+        ticker = str(row["Ticker"]).strip()
+        if not ticker or ticker.lower() == "nan":
             continue
+
+        name = str(row["Empresa"]).strip() if "Empresa" in df_in.columns and pd.notna(row.get("Empresa")) else ""
 
         t = yf.Ticker(ticker)
         info = get_info_safe(t)
@@ -68,7 +52,7 @@ def main():
 
     df = pd.DataFrame(rows)
     if df.empty:
-        raise RuntimeError("Nenhum dado foi coletado.")
+        raise RuntimeError("Nenhum dado foi gerado.")
 
     df["Market Cap"] = pd.to_numeric(df["Market Cap"], errors="coerce")
     df["Preço"] = pd.to_numeric(df["Preço"], errors="coerce")
@@ -77,7 +61,6 @@ def main():
 
     df.to_csv(OUTPUT_FILE, index=False)
     print(f"CSV gerado: {OUTPUT_FILE}")
-    print(df.head(10).to_string(index=False))
 
 if __name__ == "__main__":
     main()
