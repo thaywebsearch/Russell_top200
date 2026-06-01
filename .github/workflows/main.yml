@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,13 +19,21 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Run script
         run: python russell3000_top200.py
+
+      - name: Verify output
+        run: |
+          ls -lh
+          test -f russell3000_top200_yahoo.csv
 
       - name: Upload CSV
         uses: actions/upload-artifact@v4
         with:
           name: russell3000_top200_csv
           path: russell3000_top200_yahoo.csv
+          if-no-files-found: error
