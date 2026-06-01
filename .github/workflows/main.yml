@@ -1,0 +1,30 @@
+name: Run Russell 3000 Top 200
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run script
+        run: python russell3000_top200.py
+
+      - name: Upload CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: russell3000_top200_csv
+          path: russell3000_top200_yahoo.csv
