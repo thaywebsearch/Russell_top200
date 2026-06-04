@@ -1,0 +1,201 @@
+Rank,Ticker,Empresa,Setor,Indústria,País,Market Cap,Preço,Moeda,Fonte,Data
+1,NVDA,NVIDIA Corporation,Technology,Semiconductors,United States,5201459675136.0,214.75,USD,Yahoo Finance,2026-06-03
+2,AAPL,Apple Inc.,Technology,Consumer Electronics,United States,4556898959360.0,310.26,USD,Yahoo Finance,2026-06-03
+3,GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,United States,4349323116544.0,358.99,USD,Yahoo Finance,2026-06-03
+4,GOOG,Alphabet Inc.,Communication Services,Internet Content & Information,United States,4309220851712.0,355.68,USD,Yahoo Finance,2026-06-03
+5,MSFT,Microsoft Corporation,Technology,Software - Infrastructure,United States,3174467371008.0,427.34,USD,Yahoo Finance,2026-06-03
+6,AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,United States,2689492582400.0,250.02,USD,Yahoo Finance,2026-06-03
+7,AVGO,Broadcom Inc.,Technology,Semiconductors,United States,2268995256320.0,479.23,USD,Yahoo Finance,2026-06-03
+8,TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,United States,1591300194304.0,423.7,USD,Yahoo Finance,2026-06-03
+9,META,"Meta Platforms, Inc.",Communication Services,Internet Content & Information,United States,1581386956800.0,622.98,USD,Yahoo Finance,2026-06-03
+10,MU,"Micron Technology, Inc.",Technology,Semiconductors,United States,1217467777024.0,1079.57,USD,Yahoo Finance,2026-06-03
+11,LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,United States,961992785920.0,1078.78,USD,Yahoo Finance,2026-06-03
+12,WMT,Walmart Inc.,Consumer Defensive,Discount Stores,United States,930219819008.0,116.89,USD,Yahoo Finance,2026-06-03
+13,AMD,"Advanced Micro Devices, Inc.",Technology,Semiconductors,United States,884633436160.0,542.52,USD,Yahoo Finance,2026-06-03
+14,JPM,JP Morgan Chase & Co.,Financial Services,Banks - Diversified,United States,806131007488.0,300.85,USD,Yahoo Finance,2026-06-03
+15,ORCL,Oracle Corporation,Technology,Software - Infrastructure,United States,662439723008.0,230.33,USD,Yahoo Finance,2026-06-03
+16,XOM,Exxon Mobil Corporation,Energy,Oil & Gas Integrated,United States,632228806656.0,152.53,USD,Yahoo Finance,2026-06-03
+17,V,Visa Inc.,Financial Services,Credit Services,United States,594104745984.0,312.4,USD,Yahoo Finance,2026-06-03
+18,INTC,Intel Corporation,Technology,Semiconductors,United States,566480470016.0,112.71,USD,Yahoo Finance,2026-06-03
+19,JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers - General,United States,537387106304.0,223.24,USD,Yahoo Finance,2026-06-03
+20,CSCO,"Cisco Systems, Inc.",Technology,Communication Equipment,United States,498591465472.0,126.5,USD,Yahoo Finance,2026-06-03
+21,LRCX,Lam Research Corporation,Technology,Semiconductor Equipment & Materials,United States,429833748480.0,343.71,USD,Yahoo Finance,2026-06-03
+22,CAT,"Caterpillar, Inc.",Industrials,Farm & Heavy Construction Machinery,United States,426591059968.0,926.18,USD,Yahoo Finance,2026-06-03
+23,COST,Costco Wholesale Corporation,Consumer Defensive,Discount Stores,United States,426585063424.0,961.83,USD,Yahoo Finance,2026-06-03
+24,MA,Mastercard Incorporated,Financial Services,Credit Services,United States,416653967360.0,471.55,USD,Yahoo Finance,2026-06-03
+25,AMAT,"Applied Materials, Inc.",Technology,Semiconductor Equipment & Materials,United States,397591052288.0,500.77,USD,Yahoo Finance,2026-06-03
+26,ABBV,AbbVie Inc.,Healthcare,Drug Manufacturers - General,United States,383623725056.0,217.13,USD,Yahoo Finance,2026-06-03
+27,CVX,Chevron Corporation,Energy,Oil & Gas Integrated,United States,377826017280.0,189.71,USD,Yahoo Finance,2026-06-03
+28,BAC,Bank of America Corporation,Financial Services,Banks - Diversified,United States,371861356544.0,52.4,USD,Yahoo Finance,2026-06-03
+29,NFLX,"Netflix, Inc.",Communication Services,Entertainment,United States,343264296960.0,81.52,USD,Yahoo Finance,2026-06-03
+30,UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,United States,342370418688.0,377.0,USD,Yahoo Finance,2026-06-03
+31,PLTR,Palantir Technologies Inc.,Technology,Software - Infrastructure,United States,340897759232.0,142.2,USD,Yahoo Finance,2026-06-03
+32,KO,Coca-Cola Company (The),Consumer Defensive,Beverages - Non-Alcoholic,United States,338863521792.0,78.76,USD,Yahoo Finance,2026-06-03
+33,MS,Morgan Stanley,Financial Services,Capital Markets,United States,331450646528.0,210.14,USD,Yahoo Finance,2026-06-03
+34,GE,GE Aerospace,Industrials,Aerospace & Defense,United States,328745222144.0,314.64,USD,Yahoo Finance,2026-06-03
+35,PG,Procter & Gamble Company (The),Consumer Defensive,Household & Personal Products,United States,326446317568.0,140.19,USD,Yahoo Finance,2026-06-03
+36,HD,"Home Depot, Inc. (The)",Consumer Cyclical,Home Improvement Retail,United States,312067620864.0,312.97,USD,Yahoo Finance,2026-06-03
+37,GS,"Goldman Sachs Group, Inc. (The)",Financial Services,Capital Markets,United States,307108642816.0,1041.02,USD,Yahoo Finance,2026-06-03
+38,IBM,International Business Machines,Technology,Information Technology Services,United States,287257165824.0,305.63,USD,Yahoo Finance,2026-06-03
+39,MRK,"Merck & Company, Inc.",Healthcare,Drug Manufacturers - General,United States,283288862720.0,114.7,USD,Yahoo Finance,2026-06-03
+40,TXN,Texas Instruments Incorporated,Technology,Semiconductors,United States,280845549568.0,308.59,USD,Yahoo Finance,2026-06-03
+41,KLAC,KLA Corporation,Technology,Semiconductor Equipment & Materials,United States,277597847552.0,2125.11,USD,Yahoo Finance,2026-06-03
+42,PM,Philip Morris International Inc,Consumer Defensive,Tobacco,United States,274212847616.0,175.94,USD,Yahoo Finance,2026-06-03
+43,DELL,Dell Technologies Inc.,Technology,Computer Hardware,United States,273520197632.0,421.08,USD,Yahoo Finance,2026-06-03
+44,MRVL,"Marvell Technology, Inc.",Technology,Semiconductors,United States,263883407360.0,301.65,USD,Yahoo Finance,2026-06-03
+45,QCOM,QUALCOMM Incorporated,Technology,Semiconductors,United States,263510540288.0,250.01,USD,Yahoo Finance,2026-06-03
+46,GEV,GE Vernova Inc.,Industrials,Specialty Industrial Machinery,United States,257799208960.0,959.36,USD,Yahoo Finance,2026-06-03
+47,WFC,Wells Fargo & Company,Financial Services,Banks - Diversified,United States,240775708672.0,78.68,USD,Yahoo Finance,2026-06-03
+48,LIN,Linde plc,Basic Materials,Specialty Chemicals,United Kingdom,234673618944.0,507.57,USD,Yahoo Finance,2026-06-03
+49,RTX,RTX Corporation,Industrials,Aerospace & Defense,United States,232370225152.0,172.55,USD,Yahoo Finance,2026-06-03
+50,PANW,"Palo Alto Networks, Inc.",Technology,Software - Infrastructure,United States,227428728832.0,280.43,USD,Yahoo Finance,2026-06-03
+51,C,"Citigroup, Inc.",Financial Services,Banks - Diversified,United States,221605609472.0,129.93,USD,Yahoo Finance,2026-06-03
+52,ANET,"Arista Networks, Inc.",Technology,Computer Hardware,United States,219561361408.0,174.37,USD,Yahoo Finance,2026-06-03
+53,ADI,"Analog Devices, Inc.",Technology,Semiconductors,United States,213183397888.0,437.67,USD,Yahoo Finance,2026-06-03
+54,AXP,American Express Company,Financial Services,Credit Services,United States,205086867456.0,300.57,USD,Yahoo Finance,2026-06-03
+55,TMUS,"T-Mobile US, Inc.",Communication Services,Telecom Services,United States,196366041088.0,181.45,USD,Yahoo Finance,2026-06-03
+56,PEP,"Pepsico, Inc.",Consumer Defensive,Beverages - Non-Alcoholic,United States,194843754496.0,142.54,USD,Yahoo Finance,2026-06-03
+57,VZ,Verizon Communications Inc.,Communication Services,Telecom Services,United States,194789834752.0,46.65,USD,Yahoo Finance,2026-06-03
+58,MCD,McDonald's Corporation,Consumer Cyclical,Restaurants,United States,194174156800.0,273.29,USD,Yahoo Finance,2026-06-03
+59,APP,Applovin Corporation,Communication Services,Advertising Agencies,United States,191764365312.0,570.83,USD,Yahoo Finance,2026-06-03
+60,CRWD,"CrowdStrike Holdings, Inc.",Technology,Software - Infrastructure,United States,190294048768.0,747.61,USD,Yahoo Finance,2026-06-03
+61,AMGN,Amgen Inc.,Healthcare,Drug Manufacturers - General,United States,182540140544.0,338.22,USD,Yahoo Finance,2026-06-03
+62,APH,Amphenol Corporation,Technology,Electronic Components,United States,181607202816.0,147.62,USD,Yahoo Finance,2026-06-03
+63,NEE,"NextEra Energy, Inc.",Utilities,Utilities - Regulated Electric,United States,176400498688.0,84.58,USD,Yahoo Finance,2026-06-03
+64,TMO,Thermo Fisher Scientific Inc,Healthcare,Diagnostics & Research,United States,176129998848.0,473.95,USD,Yahoo Finance,2026-06-03
+65,TJX,"TJX Companies, Inc. (The)",Consumer Cyclical,Apparel Retail,United States,174432813056.0,157.9,USD,Yahoo Finance,2026-06-03
+66,DIS,Walt Disney Company (The),Communication Services,Entertainment,United States,172591874048.0,99.39,USD,Yahoo Finance,2026-06-03
+67,BA,Boeing Company (The),Industrials,Aerospace & Defense,United States,166000705536.0,210.58,USD,Yahoo Finance,2026-06-03
+68,SCCO,Southern Copper Corporation,Basic Materials,Copper,United States,164020092928.0,196.59,USD,Yahoo Finance,2026-06-03
+69,T,AT&T Inc.,Communication Services,Telecom Services,United States,163633364992.0,23.55,USD,Yahoo Finance,2026-06-03
+70,ETN,"Eaton Corporation, PLC",Industrials,Specialty Industrial Machinery,Ireland,163555835904.0,421.21,USD,Yahoo Finance,2026-06-03
+71,GILD,"Gilead Sciences, Inc.",Healthcare,Drug Manufacturers - General,United States,160150110208.0,128.99,USD,Yahoo Finance,2026-06-03
+72,DE,Deere & Company,Industrials,Farm & Heavy Construction Machinery,United States,158801494016.0,588.29,USD,Yahoo Finance,2026-06-03
+73,CRM,"Salesforce, Inc.",Technology,Software - Application,United States,156109586432.0,190.61,USD,Yahoo Finance,2026-06-03
+74,UNP,Union Pacific Corporation,Industrials,Railroads,United States,155630043136.0,262.13,USD,Yahoo Finance,2026-06-03
+75,BLK,"BlackRock, Inc.",Financial Services,Asset Management,United States,153816694784.0,990.87,USD,Yahoo Finance,2026-06-03
+76,ABT,Abbott Laboratories,Healthcare,Medical Devices,United States,151520313344.0,86.99,USD,Yahoo Finance,2026-06-03
+77,SCHW,Charles Schwab Corporation (The,Financial Services,Capital Markets,United States,150591733760.0,86.59,USD,Yahoo Finance,2026-06-03
+78,IBKR,"Interactive Brokers Group, Inc.",Financial Services,Capital Markets,United States,147825770496.0,87.15,USD,Yahoo Finance,2026-06-03
+79,UBER,"Uber Technologies, Inc.",Technology,Software - Application,United States,145932091392.0,71.69,USD,Yahoo Finance,2026-06-03
+80,COP,ConocoPhillips,Energy,Oil & Gas E&P,United States,145037901824.0,119.05,USD,Yahoo Finance,2026-06-03
+81,PFE,"Pfizer, Inc.",Healthcare,Drug Manufacturers - General,United States,144423911424.0,25.34,USD,Yahoo Finance,2026-06-03
+82,ISRG,"Intuitive Surgical, Inc.",Healthcare,Medical Instruments & Supplies,United States,144246996992.0,407.29,USD,Yahoo Finance,2026-06-03
+83,HON,Honeywell International Inc.,Industrials,Conglomerates,United States,141469384704.0,223.26,USD,Yahoo Finance,2026-06-03
+84,WELL,Welltower Inc.,Real Estate,REIT - Healthcare Facilities,United States,140893454336.0,199.59,USD,Yahoo Finance,2026-06-03
+85,BX,Blackstone Inc.,Financial Services,Asset Management,United States,134791053312.0,110.28,USD,Yahoo Finance,2026-06-03
+86,PLD,"Prologis, Inc.",Real Estate,REIT - Industrial,United States,132224180224.0,141.82,USD,Yahoo Finance,2026-06-03
+87,BKNG,Booking Holdings Inc. Common St,Consumer Cyclical,Travel Services,United States,127684468736.0,164.78,USD,Yahoo Finance,2026-06-03
+88,DHR,Danaher Corporation,Healthcare,Diagnostics & Research,United States,126039793664.0,178.08,USD,Yahoo Finance,2026-06-03
+89,SPGI,S&P Global Inc.,Financial Services,Financial Data & Stock Exchanges,United States,122037846016.0,412.29,USD,Yahoo Finance,2026-06-03
+90,NOW,"ServiceNow, Inc.",Technology,Software - Application,United States,121591218176.0,117.9,USD,Yahoo Finance,2026-06-03
+91,CB,Chubb Limited,Financial Services,Insurance - Property & Casualty,Switzerland,121303244800.0,312.75,USD,Yahoo Finance,2026-06-03
+92,LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,United States,118055493632.0,512.03,USD,Yahoo Finance,2026-06-03
+93,MO,"Altria Group, Inc.",Consumer Defensive,Tobacco,United States,117393358848.0,70.3,USD,Yahoo Finance,2026-06-03
+94,CVS,CVS Health Corporation,Healthcare,Healthcare Plans,United States,116581482496.0,91.37,USD,Yahoo Finance,2026-06-03
+95,LOW,"Lowe's Companies, Inc.",Consumer Cyclical,Home Improvement Retail,United States,116430823424.0,207.65,USD,Yahoo Finance,2026-06-03
+96,NEM,Newmont Corporation,Basic Materials,Gold,United States,114729893888.0,107.47,USD,Yahoo Finance,2026-06-03
+97,SYK,Stryker Corporation,Healthcare,Medical Devices,United States,113091428352.0,295.0,USD,Yahoo Finance,2026-06-03
+98,PGR,Progressive Corporation (The),Financial Services,Insurance - Property & Casualty,United States,112883916800.0,193.46,USD,Yahoo Finance,2026-06-03
+99,CDNS,"Cadence Design Systems, Inc.",Technology,Software - Application,United States,112532930560.0,408.0,USD,Yahoo Finance,2026-06-03
+100,BMY,Bristol-Myers Squibb Company,Healthcare,Drug Manufacturers - General,United States,111742140416.0,54.72,USD,Yahoo Finance,2026-06-03
+101,COF,Capital One Financial Corporati,Financial Services,Credit Services,United States,110531641344.0,177.62,USD,Yahoo Finance,2026-06-03
+102,SBUX,Starbucks Corporation,Consumer Cyclical,Restaurants,United States,109285826560.0,95.89,USD,Yahoo Finance,2026-06-03
+103,ACN,Accenture plc,Technology,Information Technology Services,Ireland,109196648448.0,177.43,USD,Yahoo Finance,2026-06-03
+104,VRTX,Vertex Pharmaceuticals Incorpor,Healthcare,Biotechnology,United States,108715016192.0,428.34,USD,Yahoo Finance,2026-06-03
+105,FTNT,"Fortinet, Inc.",Technology,Software - Infrastructure,United States,107318329344.0,146.48,USD,Yahoo Finance,2026-06-03
+106,PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,United States,107269259264.0,850.76,USD,Yahoo Finance,2026-06-03
+107,EQIX,"Equinix, Inc.",Real Estate,REIT - Specialty,United States,106218315776.0,1077.0,USD,Yahoo Finance,2026-06-03
+108,ADBE,Adobe Inc.,Technology,Software - Application,United States,103572201472.0,256.24,USD,Yahoo Finance,2026-06-03
+109,TT,Trane Technologies plc,Industrials,Building Products & Equipment,Ireland,102976479232.0,465.84,USD,Yahoo Finance,2026-06-03
+110,SO,Southern Company (The),Utilities,Utilities - Regulated Electric,United States,102009479168.0,90.49,USD,Yahoo Finance,2026-06-03
+111,FCX,"Freeport-McMoRan, Inc.",Basic Materials,Copper,United States,101549228032.0,70.64,USD,Yahoo Finance,2026-06-03
+112,SPOT,Spotify Technology S.A.,Communication Services,Internet Content & Information,Sweden,100248010752.0,487.54,USD,Yahoo Finance,2026-06-03
+113,MDT,Medtronic plc.,Healthcare,Medical Devices,Ireland,100078829568.0,77.95,USD,Yahoo Finance,2026-06-03
+114,MAR,Marriott International,Consumer Cyclical,Lodging,United States,99344687104.0,376.75,USD,Yahoo Finance,2026-06-03
+115,CEG,Constellation Energy Corporatio,Utilities,Utilities - Independent Power Producers,United States,95966420992.0,267.24,USD,Yahoo Finance,2026-06-03
+116,SNPS,"Synopsys, Inc.",Technology,Software - Infrastructure,United States,95360532480.0,498.02,USD,Yahoo Finance,2026-06-03
+117,DUK,Duke Energy Corporation (Holdin,Utilities,Utilities - Regulated Electric,United States,94362329088.0,121.04,USD,Yahoo Finance,2026-06-03
+118,UPS,"United Parcel Service, Inc.",Industrials,Integrated Freight & Logistics,United States,92370182144.0,108.67,USD,Yahoo Finance,2026-06-03
+119,CME,CME Group Inc.,Financial Services,Financial Data & Stock Exchanges,United States,91284578304.0,252.64,USD,Yahoo Finance,2026-06-03
+120,GD,General Dynamics Corporation,Industrials,Aerospace & Defense,United States,91145789440.0,337.04,USD,Yahoo Finance,2026-06-03
+121,ADP,"Automatic Data Processing, Inc.",Technology,Software - Application,United States,91039481856.0,227.75,USD,Yahoo Finance,2026-06-03
+122,JCI,Johnson Controls International ,Industrials,Building Products & Equipment,Ireland,89662586880.0,146.96,USD,Yahoo Finance,2026-06-03
+123,MCK,McKesson Corporation,Healthcare,Medical Distribution,United States,88894504960.0,739.53,USD,Yahoo Finance,2026-06-03
+124,PNC,"PNC Financial Services Group, I",Financial Services,Banks - Regional,United States,87649517568.0,218.27,USD,Yahoo Finance,2026-06-03
+125,WMB,"Williams Companies, Inc. (The)",Energy,Oil & Gas Midstream,United States,87640064000.0,71.66,USD,Yahoo Finance,2026-06-03
+126,WM,"Waste Management, Inc.",Industrials,Waste Management,United States,87543513088.0,218.0,USD,Yahoo Finance,2026-06-03
+127,MNST,Monster Beverage Corporation,Consumer Defensive,Beverages - Non-Alcoholic,United States,87081844736.0,89.04,USD,Yahoo Finance,2026-06-03
+128,CSX,CSX Corporation,Industrials,Railroads,United States,86291963904.0,46.44,USD,Yahoo Finance,2026-06-03
+129,INTU,Intuit Inc.,Technology,Software - Application,United States,85190361088.0,311.44,USD,Yahoo Finance,2026-06-03
+130,SLB,SLB Limited,Energy,Oil & Gas Equipment & Services,United States,84994023424.0,56.85,USD,Yahoo Finance,2026-06-03
+131,ELV,"Elevance Health, Inc.",Healthcare,Healthcare Plans,United States,84969119744.0,391.27,USD,Yahoo Finance,2026-06-03
+132,AMT,American Tower Corporation (REI,Real Estate,REIT - Specialty,United States,84904353792.0,182.24,USD,Yahoo Finance,2026-06-03
+133,KKR,KKR & Co. Inc.,Financial Services,Asset Management,United States,84413931520.0,90.53,USD,Yahoo Finance,2026-06-03
+134,CMCSA,Comcast Corporation,Communication Services,Telecom Services,United States,84018814976.0,23.52,USD,Yahoo Finance,2026-06-03
+135,SNOW,Snowflake Inc.,Technology,Software - Application,United States,83627646976.0,241.28,USD,Yahoo Finance,2026-06-03
+136,USB,U.S. Bancorp,Financial Services,Banks - Regional,United States,82427109376.0,53.14,USD,Yahoo Finance,2026-06-03
+137,HCA,"HCA Healthcare, Inc.",Healthcare,Medical Care Facilities,United States,80578879488.0,363.23,USD,Yahoo Finance,2026-06-03
+138,ABNB,"Airbnb, Inc.",Consumer Cyclical,Travel Services,United States,79286312960.0,133.59,USD,Yahoo Finance,2026-06-03
+139,MMM,3M Company,Industrials,Conglomerates,United States,79095668736.0,151.65,USD,Yahoo Finance,2026-06-03
+140,EMR,Emerson Electric Company,Industrials,Specialty Industrial Machinery,United States,78906884096.0,140.88,USD,Yahoo Finance,2026-06-03
+141,MDLZ,"Mondelez International, Inc.",Consumer Defensive,Confectioners,United States,78700568576.0,61.31,USD,Yahoo Finance,2026-06-03
+142,MCO,Moody's Corporation,Financial Services,Financial Data & Stock Exchanges,United States,78323171328.0,448.39,USD,Yahoo Finance,2026-06-03
+143,ICE,Intercontinental Exchange Inc.,Financial Services,Financial Data & Stock Exchanges,United States,78295203840.0,138.45,USD,Yahoo Finance,2026-06-03
+144,FDX,FedEx Corporation,Industrials,Integrated Freight & Logistics,United States,77418348544.0,324.46,USD,Yahoo Finance,2026-06-03
+145,MRSH,Marsh,Financial Services,Insurance Brokers,United States,75795914752.0,157.32,USD,Yahoo Finance,2026-06-03
+146,EOG,"EOG Resources, Inc.",Energy,Oil & Gas E&P,United States,75366940672.0,141.5,USD,Yahoo Finance,2026-06-03
+147,NOC,Northrop Grumman Corporation,Industrials,Aerospace & Defense,United States,74718126080.0,526.06,USD,Yahoo Finance,2026-06-03
+148,GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,United States,73666043904.0,81.7,USD,Yahoo Finance,2026-06-03
+149,SHW,Sherwin-Williams Company (The),Basic Materials,Specialty Chemicals,United States,73124995072.0,296.49,USD,Yahoo Finance,2026-06-03
+150,ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical,Auto Parts,United States,72413118464.0,87.38,USD,Yahoo Finance,2026-06-03
+151,BAM,Brookfield Asset Management Inc,Financial Services,Asset Management,United States,72254586880.0,45.25,USD,Yahoo Finance,2026-06-03
+152,ITW,Illinois Tool Works Inc.,Industrials,Specialty Industrial Machinery,United States,71999799296.0,250.26,USD,Yahoo Finance,2026-06-03
+153,ECL,Ecolab Inc.,Basic Materials,Specialty Chemicals,United States,71955128320.0,255.67,USD,Yahoo Finance,2026-06-03
+154,APO,"Apollo Global Management, Inc. ",Financial Services,Asset Management,United States,71689953280.0,124.35,USD,Yahoo Finance,2026-06-03
+155,CI,The Cigna Group,Healthcare,Healthcare Plans,United States,71616856064.0,270.73,USD,Yahoo Finance,2026-06-03
+156,BSX,Boston Scientific Corporation,Healthcare,Medical Devices,United States,70884278272.0,47.69,USD,Yahoo Finance,2026-06-03
+157,CRH,CRH PLC,Basic Materials,Building Materials,Ireland,70755721216.0,105.89,USD,Yahoo Finance,2026-06-03
+158,CTAS,Cintas Corporation,Industrials,Specialty Business Services,United States,69911920640.0,174.72,USD,Yahoo Finance,2026-06-03
+159,AEP,American Electric Power Company,Utilities,Utilities - Regulated Electric,United States,68725907456.0,126.31,USD,Yahoo Finance,2026-06-03
+160,NSC,Norfolk Southern Corporation,Industrials,Railroads,United States,68525871104.0,305.11,USD,Yahoo Finance,2026-06-03
+161,CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,United States,67912069120.0,84.87,USD,Yahoo Finance,2026-06-03
+162,MSI,"Motorola Solutions, Inc.",Technology,Communication Equipment,United States,67790938112.0,408.39,USD,Yahoo Finance,2026-06-03
+163,TDG,Transdigm Group Incorporated,Industrials,Aerospace & Defense,United States,67767447552.0,1211.57,USD,Yahoo Finance,2026-06-03
+164,AON,Aon plc,Financial Services,Insurance Brokers,Ireland,67404886016.0,315.6,USD,Yahoo Finance,2026-06-03
+165,DASH,"DoorDash, Inc.",Consumer Cyclical,Internet Retail,United States,67353399296.0,154.58,USD,Yahoo Finance,2026-06-03
+166,REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,Biotechnology,United States,64890118144.0,618.95,USD,Yahoo Finance,2026-06-03
+167,NKE,"Nike, Inc.",Consumer Cyclical,Footwear & Accessories,United States,64877662208.0,43.81,USD,Yahoo Finance,2026-06-03
+168,APD,"Air Products and Chemicals, Inc",Basic Materials,Specialty Chemicals,United States,62856077312.0,282.27,USD,Yahoo Finance,2026-06-03
+169,RSG,"Republic Services, Inc.",Industrials,Waste Management,United States,62825009152.0,204.2,USD,Yahoo Finance,2026-06-03
+170,TRV,"The Travelers Companies, Inc.",Financial Services,Insurance - Property & Casualty,United States,61656330240.0,289.95,USD,Yahoo Finance,2026-06-03
+171,PCAR,PACCAR Inc.,Industrials,Farm & Heavy Construction Machinery,United States,60196618240.0,114.38,USD,Yahoo Finance,2026-06-03
+172,TFC,Truist Financial Corporation,Financial Services,Banks - Regional,United States,59079581696.0,47.42,USD,Yahoo Finance,2026-06-03
+173,SRE,DBA Sempra,Utilities,Utilities - Diversified,United States,58524868608.0,89.53,USD,Yahoo Finance,2026-06-03
+174,AFL,AFLAC Incorporated,Financial Services,Insurance - Life,United States,58278768640.0,114.5,USD,Yahoo Finance,2026-06-03
+175,D,"Dominion Energy, Inc.",Utilities,Utilities - Regulated Electric,United States,57572888576.0,65.46,USD,Yahoo Finance,2026-06-03
+176,TGT,Target Corporation,Consumer Defensive,Discount Stores,United States,56683053056.0,124.8,USD,Yahoo Finance,2026-06-03
+177,NU,Nu Holdings Ltd.,Financial Services,Banks - Regional,Brazil,56590667776.0,11.64,USD,Yahoo Finance,2026-06-03
+178,CARR,Carrier Global Corporation,Industrials,Building Products & Equipment,United States,56130625536.0,67.58,USD,Yahoo Finance,2026-06-03
+179,PSA,Public Storage,Real Estate,REIT - Industrial,United States,53009547264.0,301.97,USD,Yahoo Finance,2026-06-03
+180,MET,"MetLife, Inc.",Financial Services,Insurance - Life,United States,52092641280.0,80.96,USD,Yahoo Finance,2026-06-03
+181,AJG,Arthur J. Gallagher & Co.,Financial Services,Insurance Brokers,United States,52030754816.0,202.5,USD,Yahoo Finance,2026-06-03
+182,AZO,"AutoZone, Inc.",Consumer Cyclical,Auto Parts,United States,50116149248.0,3061.65,USD,Yahoo Finance,2026-06-03
+183,EW,Edwards Lifesciences Corporatio,Healthcare,Medical Devices,United States,49518800896.0,86.0,USD,Yahoo Finance,2026-06-03
+184,ADSK,"Autodesk, Inc.",Technology,Software - Application,United States,48478949376.0,229.6,USD,Yahoo Finance,2026-06-03
+185,MSTR,Strategy Inc,Technology,Software - Application,United States,44532641792.0,126.545,USD,Yahoo Finance,2026-06-03
+186,KDP,Keurig Dr Pepper Inc.,Consumer Defensive,Beverages - Non-Alcoholic,United States,41565089792.0,30.55,USD,Yahoo Finance,2026-06-03
+187,BDX,"Becton, Dickinson and Company",Healthcare,Medical Instruments & Supplies,United States,40121438208.0,145.61,USD,Yahoo Finance,2026-06-03
+188,AIG,"American International Group, I",Financial Services,Insurance - Diversified,United States,38466461696.0,72.55,USD,Yahoo Finance,2026-06-03
+189,PYPL,"PayPal Holdings, Inc.",Financial Services,Credit Services,United States,37586513920.0,42.61,USD,Yahoo Finance,2026-06-03
+190,CMG,"Chipotle Mexican Grill, Inc.",Consumer Cyclical,Restaurants,United States,36865773568.0,28.74,USD,Yahoo Finance,2026-06-03
+191,WDAY,"Workday, Inc.",Technology,Software - Application,United States,36280401920.0,146.9,USD,Yahoo Finance,2026-06-03
+192,ROP,"Roper Technologies, Inc.",Technology,Software - Application,United States,33474289664.0,331.7,USD,Yahoo Finance,2026-06-03
+193,ZTS,Zoetis Inc.,Healthcare,Drug Manufacturers - Specialty & Generic,United States,32527908864.0,77.59,USD,Yahoo Finance,2026-06-03
+194,KMB,Kimberly-Clark Corporation,Consumer Defensive,Household & Personal Products,United States,31454668800.0,94.76,USD,Yahoo Finance,2026-06-03
+195,FISV,"Fiserv, Inc.",N/A,N/A,N/A,29371629568.0,55.08,USD,Yahoo Finance,2026-06-03
+196,CPRT,"Copart, Inc.",Industrials,Specialty Business Services,United States,28098377728.0,30.35,USD,Yahoo Finance,2026-06-03
+197,TEAM,Atlassian Corporation,Technology,Software - Application,Australia,25765050368.0,101.53,USD,Yahoo Finance,2026-06-03
+198,FDXF,"FedEx Freight Holding Company, Inc.",Industrials,Integrated Freight & Logistics,United States,22633736192.0,152.0,USD,Yahoo Finance,2026-06-03
+199,SOLS,Solstice Advanced Materials Inc,Basic Materials,Specialty Chemicals,United States,13752450048.0,86.6,USD,Yahoo Finance,2026-06-03
+200,BRKB,BERKSHIRE HATHAWAY INC CLASS B,N/A,N/A,N/A,,,USD,Yahoo Finance,2026-06-03
