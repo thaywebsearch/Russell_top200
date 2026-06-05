@@ -1,55 +1,43 @@
-# Russell Top 200 Data Pipeline
+# 📊 Russell 3000 Analysis Dashboard
 
-Pipeline automatizado para extrair, limpar e consolidar dados do índice Russell Top 200 usando Python, iShares e Yahoo Finance.
+Bem-vindo ao projeto de monitorização automatizada das empresas que compõem o índice **Russell 3000**. Este repositório utiliza **GitHub Actions** para extrair e processar dados em tempo real, focando-se nos dois extremos do mercado americano: as 200 maiores e as 200 menores empresas por capitalização de mercado.
 
-## Objetivo
+---
 
-O projeto gera um dataset com os 200 constituintes do Russell Top 200 e enriquece cada linha com dados de mercado como setor, indústria, país, preço e market cap.
+## 🚀 Navegação Rápida
 
-## Como funciona
+Escolha uma das listas abaixo para visualizar os dados detalhados:
 
-1. `build_input_csv.py` lê `ishares_holdings_fixed.csv`.
-2. O script cria `input.csv` com os 200 tickers do universo selecionado.
-3. `russell3000_top200.py` lê `input.csv`.
-4. O script consulta Yahoo Finance via `yfinance`.
-5. O resultado final é gravado em `russell3000_yahoo.csv`.
-6. O GitHub Actions faz upload do CSV final como artifact.
+| Relatório | Descrição | Formato |
+| :--- | :--- | :--- |
+| [🔝 **As 200 Maiores Empresas**](./russell3000_yahoo.csv) | As gigantes do mercado (Top 200 por Market Cap) | [CSV] |
+| [📉 **As 200 Menores Empresas**](./Russell%203000%20-%20As%20200%20Menores%20Empresas.md) | As micro-caps do índice (Bottom 200) | [Markdown] / [CSV](./russell3000-bottom-200.csv) |
 
-## Ficheiros principais
+---
 
-- `ishares_holdings_fixed.csv`: holdings base extraídas do iShares.
-- `build_input_csv.py`: gera o `input.csv`.
-- `input.csv`: lista de tickers e nomes.
-- `russell3000_top200.py`: enriquece os dados com Yahoo Finance.
-- `requirements.txt`: dependências Python.
-- `.github/workflows/run.yml`: workflow automatizado.
-- `russell3000_yahoo.csv`: output final do pipeline.
+## 🛠️ Como Funciona a Automação
 
-## Dependências
+Este projeto é 100% automatizado através de workflows que executam semanalmente:
 
-Instale com:
+1.  **Extração**: Os dados são obtidos diretamente dos ETFs da iShares (**IWL** para as maiores e **IWV** para o índice completo).
+2.  **Processamento**: Utilizamos a biblioteca `yfinance` para obter dados fundamentais (Market Cap, Setor, Indústria e Preço) em tempo real.
+3.  **Atualização**: O GitHub Actions gera novos relatórios e atualiza este repositório automaticamente todas as segundas-feiras às 08:00 UTC.
 
-```bash
-pip install -r requirements.txt
-```
+---
 
-## Execução local
+## 📂 Estrutura do Repositório
 
-```bash
-python build_input_csv.py
-python russell3000_top200.py
-```
+*   `extract_ishares.py`: Script de extração das holdings.
+*   `russell3000_top200.py`: Processamento via Yahoo Finance.
+*   `russell3000_yahoo.csv`: O resultado final das maiores empresas.
+*   `russell3000-bottom-200.csv`: O resultado final das menores empresas.
 
-## GitHub Actions
+---
 
-O workflow `run.yml` executa automaticamente os passos acima e publica `russell3000_yahoo.csv` como artifact.
+## 📈 Visualização no GitHub Pages
 
-## Uso do CSV final
+Este repositório está configurado para ser visualizado como um site. Pode aceder à versão web aqui:
+👉 [**Visualizar Dashboard Online**](https://thaywebsearch.github.io/Russell_top200/)
 
-Depois de descarregar `russell3000_yahoo.csv`, pode importá-lo para Google Sheets para análise, filtragem e consolidação.
-
-## Notas
-
-- O projeto usa `yfinance` para obter dados públicos do Yahoo Finance.
-- O CSV final pode ser atualizado manualmente ou por schedule no GitHub Actions.
-- O artifact é temporário e fica associado ao workflow run.
+---
+*Mantido por [Gilberto (thaywebsearch)](https://github.com/thaywebsearch)*
