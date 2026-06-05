@@ -1,4 +1,4 @@
-name: Run Russell Top 200
+name: Run Russell Analysis
 
 on:
   workflow_dispatch:
@@ -25,23 +25,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas requests yfinance lxml
 
-      - name: Extract iShares Data
+      - name: Extract Top 200 (iShares)
         run: python extract_ishares.py
 
-      - name: Build input CSV
+      - name: Extract Bottom 200 (iShares)
+        run: python extract_bottom_200.py
+
+      - name: Build input CSV (for Yahoo Processing)
         run: python build_input_csv.py
 
-      - name: Run Yahoo Finance Processing
+      - name: Run Yahoo Finance Processing (Top 200)
         run: python russell3000_top200.py
 
-      - name: Verify output
+      - name: Verify outputs
         run: |
           ls -lh
           test -f russell3000_yahoo.csv
+          test -f russell3000_bottom200.csv
 
-      - name: Upload CSV
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: russell3000_yahoo_csv
-          path: russell3000_yahoo.csv
+          name: russell_analysis_data
+          path: |
+            russell3000_yahoo.csv
+            russell3000_bottom200.csv
           if-no-files-found: error
