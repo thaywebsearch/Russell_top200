@@ -11,7 +11,7 @@ Escolha uma das listas abaixo para visualizar os dados detalhados:
 | Relatório | Descrição | Formato |
 | :--- | :--- | :--- |
 | [🔝 **As 200 Maiores Empresas**](./russell3000_yahoo.csv) | As gigantes do mercado (Top 200 por Market Cap) | [CSV] |
-| [📉 **As 200 Menores Empresas**](./Russell%203000%20-%20As%20200%20Menores%20Empresas.md) | As micro-caps do índice (Bottom 200) | [Markdown] / [CSV](./russell3000-bottom-200.csv) |
+| [📉 **As 200 Menores Empresas**](./russell3000-bottom-200.html) | As micro-caps do índice (Bottom 200) | [Web] / [CSV](./russell3000-bottom-200.csv) |
 
 ---
 
