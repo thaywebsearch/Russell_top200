@@ -33,7 +33,7 @@ jobs:
           GOOGLE_GENERATIVE_AI_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          model: google/gemini-1.5-flash
+          model: google/gemini-2.0-flash
           use_github_token: true
           prompt: |
             Analyze this issue and the repository. If there's a clear task or question, address it.
