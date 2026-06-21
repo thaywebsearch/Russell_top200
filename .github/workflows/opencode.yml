@@ -4,12 +4,15 @@ on:
     types: [created]
   pull_request_review_comment:
     types: [created]
+  issues:
+    types: [opened, edited]
 
 jobs:
   opencode:
     if: |
       contains(github.event.comment.body, '/oc') ||
-      contains(github.event.comment.body, '/opencode')
+      contains(github.event.comment.body, '/opencode') ||
+      github.event_name == 'issues'
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -31,3 +34,6 @@ jobs:
         with:
           model: groq/compound
           use_github_token: true
+          prompt: |
+            Analyze this issue and the repository. If there's a clear task or question, address it.
+            Otherwise, provide a helpful summary of the issue context and repository structure.
