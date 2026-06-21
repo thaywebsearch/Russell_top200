@@ -29,5 +29,5 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: groq/qwen/qwen3-32b
+          model: groq/compound
           use_github_token: true
