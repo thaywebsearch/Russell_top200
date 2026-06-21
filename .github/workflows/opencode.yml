@@ -30,9 +30,9 @@ jobs:
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         with:
-          model: groq/compound
+          model: google/gemini-1.5-flash
           use_github_token: true
           prompt: |
             Analyze this issue and the repository. If there's a clear task or question, address it.
